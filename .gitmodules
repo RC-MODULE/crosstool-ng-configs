@@ -1,0 +1,3 @@
+[submodule "linux-kernel"]
+	path = linux-kernel
+	url = https://github.com/RC-MODULE/linux-3.10.x.git
