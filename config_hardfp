@@ -60,7 +60,7 @@ CT_PATCH_ORDER="bundled"
 #
 # Build behavior
 #
-CT_PARALLEL_JOBS=8
+CT_PARALLEL_JOBS=1
 CT_LOAD=""
 CT_USE_PIPES=y
 CT_EXTRA_CFLAGS_FOR_BUILD=""
@@ -78,15 +78,13 @@ CT_CONFIG_SHELL="${bash}"
 #
 # CT_LOG_ERROR is not set
 # CT_LOG_WARN is not set
-CT_LOG_INFO=y
+# CT_LOG_INFO is not set
 # CT_LOG_EXTRA is not set
-# CT_LOG_ALL is not set
+CT_LOG_ALL=y
 # CT_LOG_DEBUG is not set
-CT_LOG_LEVEL_MAX="INFO"
+CT_LOG_LEVEL_MAX="ALL"
 CT_LOG_SEE_TOOLS_WARN=y
-CT_LOG_PROGRESS_BAR=y
-CT_LOG_TO_FILE=y
-CT_LOG_FILE_COMPRESS=y
+# CT_LOG_TO_FILE is not set
 
 #
 # Target options
